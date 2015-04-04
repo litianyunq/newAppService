@@ -94,7 +94,7 @@ private final static Logger log = LoggerFactory.getLogger(ServerMessageHandler.c
         	jsaArray.put(body02.toString());
         	jsaArray.put(body03.toString());
         	returnMessage.put(Constants.KEY_ONEDAY_BODY_INFO, jsaArray.toString());
-        	///litasdasdasd
+        	//litianyun litianyun
         }else {
         	returnMessage.put(Constants.KEY_RETURN_CODE, Constants.ACTION_RETURN_CODE_11);//交易码
         	returnMessage.put(Constants.KEY_RETURN_MESSAGE, Constants.ACTION_RETURN_MESSAGE_11);//交易码
