@@ -109,7 +109,7 @@ private final static Logger log = LoggerFactory.getLogger(ServerMessageHandler.c
         session.write(str.substring(0, str.length()));
 
         
-        
+ //  commit       
 //    	DecimalFormat df2 = new DecimalFormat("0000");
 //    	String a=df2.format(returnMessage.toString().getBytes().length);
 //    	byte bt[]=(a+returnMessage).getBytes();
