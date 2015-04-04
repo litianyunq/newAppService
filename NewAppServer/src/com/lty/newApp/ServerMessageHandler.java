@@ -90,7 +90,7 @@ private final static Logger log = LoggerFactory.getLogger(ServerMessageHandler.c
         	body03.put(Constants.KEY_ONEDAY_IMG, "http://litianyunq.nat123.net:5333/TestServer/lz_one_01.png");//对应oneday获得讨论总数
         	returnMessage.put(Constants.KEY_ONEDAY_HEAD_INFO, head.toString());
         	JSONArray jsaArray=new JSONArray();
-        	jsaArray.put(body01.toString());hkwjhaedhw
+        	jsaArray.put(body01.toString());
         	jsaArray.put(body02.toString());
         	jsaArray.put(body03.toString());
         	returnMessage.put(Constants.KEY_ONEDAY_BODY_INFO, jsaArray.toString());
